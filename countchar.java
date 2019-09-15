@@ -32,7 +32,7 @@ class countchar {
     public static void main(String[] args) 
     { 
         Scanner sc = new Scanner(System.in); 
-        String str = "geeksforgeeks"; 
+        String str = sc.nextLine(); //gets input from user
         getOccuringChar(str); 
     } 
 } 
