@@ -1,3 +1,4 @@
+import java.util.Scanner;
 class countchar { 
     static final int MAX_CHAR = 256; 
   
@@ -25,8 +26,8 @@ class countchar {
             } 
   
             if (find == 1)  
-                System.out.println(
-                 str.charAt(i) + " : " + count[str.charAt(i)]);             
+                System.out.print(
+                 str.charAt(i) + " : " + count[str.charAt(i)] + "  ");             
         } 
     } 
     public static void main(String[] args) 
