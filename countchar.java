@@ -25,8 +25,8 @@ class countchar {
             } 
   
             if (find == 1)  
-                System.out.println("Number of Occurrence of " + 
-                 str.charAt(i) + " is:" + count[str.charAt(i)]);             
+                System.out.println(
+                 str.charAt(i) + " : " + count[str.charAt(i)]);             
         } 
     } 
     public static void main(String[] args) 
