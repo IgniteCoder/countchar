@@ -5,4 +5,5 @@ Write a Java program which prints number of occurrences of each characters and a
 There 3 Types Of Solutions
 
 1.simple_solution.java Contains Simplest Solution Possible With O(n^2) Time Complexity.
+
 2.countchars.java Contains Best Possible Solution With O(nLogn) Time Complexity.
