@@ -8,5 +8,5 @@ There 3 Types Of Solutions
 
 2.countchars.java Contains Best Possible Solution With O(nLogn) Time Complexity.
 
-3. hashmap_solution.java Contains Best Possible Solution With O(n) Time Complexity.but Hashmap is unordered collection so randomly shows output ina coding challenge if output doesnt match exactly then it will be inavlid.
+3.hashmap_solution.java Contains Best Possible Solution With O(n) Time Complexity.but Hashmap is unordered collection so randomly shows output ina coding challenge if output doesnt match exactly then it will be inavlid.
 
