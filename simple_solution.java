@@ -8,13 +8,17 @@ class simple_solution{
 		int count;
 		for(int i=0;i<n;i++)
 		{
-			count=0;
-		    for(int j=0;j<n;j++)
+			if(c[i]=='0')
+		    continue;
+			count=1;
+		    for(int j=i+1;j<n;j++)
 			{	
 				if(c[i]==c[j])
+				{
 				count++;
+				c[j]='0';
+				}
 			}
-			System.out.print(c[i] +" : " +count + "  ");
 		}
 	}
 	public static void main(String[] args) 
