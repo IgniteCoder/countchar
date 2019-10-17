@@ -19,6 +19,7 @@ class simple_solution{
 				c[j]='0';
 				}
 			}
+		System.out.print(c[i] + " : "+count+"  ");
 		}
 	}
 	public static void main(String[] args) 
