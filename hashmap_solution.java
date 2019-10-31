@@ -18,10 +18,11 @@ class hashmap_solution{
     			map.put(S.charAt(i),1);
     	}
     	//lets print the map with required output format
-   		for (String i : map.keySet())
+   		for (Character i : map.keySet())
    		 {
    		   System.out.print( i + " : " + map.get(i)+"  ");
-	     }
+	         }
+    }
 	public static void main(String[] args) 
     { 
         Scanner sc = new Scanner(System.in); 
