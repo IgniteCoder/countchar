@@ -15,6 +15,7 @@ class countchar {
   
         // Create an array of given String size 
         char ch[] = new char[str.length()]; 
+        //the following statements are used to print each character only once
         for (int i = 0; i < len; i++) { 
             ch[i] = str.charAt(i); 
             int find = 0; 
